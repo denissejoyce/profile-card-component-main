@@ -57,14 +57,28 @@ table {
 }
 
 article {
+    
     background-color: var(--white);
+    
 }
 
 body {
+    background-clip: border-box;
     background-color: var(--d-cyan);
+    background-image: url("images/bg-pattern-top.svg");
+    background-position: left top; 
+    background-repeat: no-repeat;
     color: var(--d-desaturated-blue);
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    min-height: 100svh;
 }
 
 .age, .location, .description {
@@ -80,6 +94,14 @@ body {
     color: var(--attribution-link); 
 }
 
+.profile-info {
+    border-top: 1px solid var(--d-gray);
+}
+
+.profile {
+    background-image: url(images/bg-pattern-card.svg) no-repeat;
+}
+
 .sr-only {
     clip-path: inset(50%);
     height: 1px;
@@ -88,4 +110,8 @@ body {
     position: absolute;
     white-space: nowrap;
     width: 1px;
+}
+
+.user-img {
+    border-radius: 50%;
 }
