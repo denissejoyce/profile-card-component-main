@@ -70,6 +70,7 @@ body {
     background-repeat: no-repeat;
     color: var(--d-desaturated-blue);
     font-family: 'Kumbh Sans', sans-serif;
+    font-size: 112.5%;
     font-weight: 400;
 }
 
@@ -96,10 +97,6 @@ main {
 
 .profile-info {
     border-top: 1px solid var(--d-gray);
-}
-
-.profile {
-    background-image: url(images/bg-pattern-card.svg) no-repeat;
 }
 
 .sr-only {
