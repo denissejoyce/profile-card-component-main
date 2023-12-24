@@ -56,10 +56,11 @@ table {
     --white: hsl(0, 100%, 100%);
 }
 
-article {
-    
+.card {
+    border-radius: 1rem;
+    width: 100%;
     background-color: var(--white);
-    
+    max-width: 30rem;
 }
 
 body {
@@ -109,6 +110,16 @@ main {
     width: 1px;
 }
 
+.user-banner {
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+}
+
+
 .user-img {
     border-radius: 50%;
+    border: solid var(--white) .5rem;
+    position: relative;
+    bottom: 4rem;
+    left: 11.4rem;
 }
