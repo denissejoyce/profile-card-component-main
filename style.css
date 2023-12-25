@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* end of reset */
+
 :root {
     --attribution-link: hsl(228, 45%, 44%); 
     --d-cyan: hsl(185, 75%, 39%);
@@ -54,13 +56,6 @@ table {
     --d-grayish-blue: hsl(227, 10%, 46%);
     --d-gray: hsl(0, 0%, 59%);
     --white: hsl(0, 100%, 100%);
-}
-
-.card {
-    border-radius: 1rem;
-    width: 100%;
-    background-color: var(--white);
-    max-width: 28rem;
 }
 
 body {
@@ -75,12 +70,23 @@ body {
     font-weight: 400;
 }
 
+dl {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
 main {
     align-items: center;
     display: flex;
     justify-content: center;
     min-height: 100vh;
     min-height: 100svh;
+}
+
+.age {
+    font-size: 1.3rem;
 }
 
 .age, .location, .description {
@@ -94,6 +100,23 @@ main {
 }
 .attribution a {
     color: var(--attribution-link); 
+}
+
+.card {
+    border-radius: 1rem;
+    width: 100%;
+    background-color: var(--white);
+    max-width: 28rem;
+}
+
+.location {
+    padding: .5rem;
+    display: block;
+}
+
+.name, .stats {
+    font-weight: 700;
+    font-size: 1.3rem;
 }
 
 .profile {
@@ -116,11 +139,15 @@ main {
     width: 1px;
 }
 
+.user {
+    bottom: 3rem;
+    position: relative;
+}
+
 .user-banner {
     border-radius: 1rem 1rem 0 0;
     width: 100%;
 }
-
 
 .user-img {
     border-radius: 50%;
@@ -129,30 +156,6 @@ main {
     bottom: 4rem;
 }
 
-.name, .stats {
-    font-weight: 700;
-    font-size: 1.3rem;
-}
-
-.age {
-    font-size: 1.3rem;
-}
-
-dl {
-    display: inline-block;
-    text-align: center;
-    margin: 0;
-    padding: 20px;
-}
-
-.user {
-    bottom: 3rem;
-    position: relative;
-}
-
-.location {
-    display: block;
-}
 
 
 
