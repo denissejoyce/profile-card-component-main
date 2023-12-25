@@ -102,7 +102,7 @@ main {
 
 .profile-info {
     border-top: 1px solid var(--d-gray);
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -127,7 +127,6 @@ main {
     border: solid var(--white) .5rem;
     position: relative;
     bottom: 4rem;
-    /* left: 10.5rem; */
 }
 
 .name, .stats {
@@ -143,7 +142,16 @@ dl {
     display: inline-block;
     text-align: center;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+}
+
+.user {
+    bottom: 3rem;
+    position: relative;
+}
+
+.location {
+    display: block;
 }
 
 
