@@ -61,9 +61,13 @@ table {
 body {
     background-clip: border-box;
     background-color: var(--d-cyan);
-    background-image: url("images/bg-pattern-top.svg");
-    background-position: left top; 
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: left top, bottom right;
     background-repeat: no-repeat;
+    /* background-image: url("images/bg-pattern-top.svg");
+    background-position: left top; 
+    background-repeat: no-repeat; */
+
     color: var(--d-desaturated-blue);
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 112.5%;
@@ -77,13 +81,9 @@ dl {
     padding: 20px;
 }
 
-main {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
-    min-height: 100svh;
-}
+/* main {
+    flex-grow: 1;
+} */
 
 .age {
     font-size: 1.3rem;
@@ -94,8 +94,11 @@ main {
 }
 
 .attribution { 
+    flex-grow: 0;
+    flex-shrink: 0;
     font-size: 11px; 
     font-weight: 700;
+    padding-top: 2rem;
     text-align: center; 
 }
 .attribution a {
@@ -164,6 +167,15 @@ main {
     border: solid var(--white) .5rem;
     position: relative;
     bottom: 4rem;
+}
+
+.wrapper {
+    align-items: center;
+    min-height: 100vh;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
