@@ -62,8 +62,8 @@ body {
     background-clip: border-box;
     background-color: var(--d-cyan);
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
-    background-position: left top, bottom right;
-    background-repeat: no-repeat;
+    background-position: left -10vw bottom 40vh, right -10vw top 50vh;
+    background-repeat: no-repeat no-repeat;
     /* background-image: url("images/bg-pattern-top.svg");
     background-position: left top; 
     background-repeat: no-repeat; */
@@ -80,10 +80,6 @@ dl {
     margin: 0;
     padding: 20px;
 }
-
-/* main {
-    flex-grow: 1;
-} */
 
 .age {
     font-size: 1.3rem;
