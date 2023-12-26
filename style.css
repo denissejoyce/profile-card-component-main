@@ -62,7 +62,7 @@ body {
     background-clip: border-box;
     background-color: var(--d-cyan);
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
-    background-position: left -10vw bottom 40vh, right -10vw top 50vh;
+    background-position: right 54vw top -51vh, left 53vw bottom -60vh;
     background-repeat: no-repeat no-repeat;
 
     color: var(--d-desaturated-blue);
@@ -79,6 +79,7 @@ dl {
 }
 
 .age {
+    /* font-size: clamp(1rem, 1.219vw, 1.3rem); */
     font-size: 1.3rem;
 }
 
@@ -170,6 +171,12 @@ dl {
     flex-direction: column;
     justify-content: center;
 }
+
+/* @media screen and (min-width: 93.75em) {
+    body {
+        background-position: left -50vw bottom 40vh, right -10vw top 50vh;
+    }
+} */
 
 
 
