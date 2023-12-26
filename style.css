@@ -64,9 +64,6 @@ body {
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-position: left -10vw bottom 40vh, right -10vw top 50vh;
     background-repeat: no-repeat no-repeat;
-    /* background-image: url("images/bg-pattern-top.svg");
-    background-position: left top; 
-    background-repeat: no-repeat; */
 
     color: var(--d-desaturated-blue);
     font-family: 'Kumbh Sans', sans-serif;
@@ -133,7 +130,7 @@ dl {
 }
 
 .profile-info {
-    border-top: 1px solid var(--d-gray);
+    border-top: .06rem solid var(--d-gray);
     padding: 1rem;
     text-align: center;
 }
