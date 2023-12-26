@@ -62,20 +62,21 @@ body {
     background-clip: border-box;
     background-color: var(--d-cyan);
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
-    background-position: right 54vw top -51vh, left 53vw bottom -60vh;
+    background-position: right 54vw top -51vh, left 51vw bottom -60vh;
     background-repeat: no-repeat no-repeat;
 
     color: var(--d-desaturated-blue);
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 112.5%;
     font-weight: 400;
+    padding: 1rem;
 }
 
 dl {
     display: inline-block;
     text-align: center;
     margin: 0;
-    padding: 20px;
+    padding: 1rem;
 }
 
 .age {
@@ -172,11 +173,11 @@ dl {
     justify-content: center;
 }
 
-/* @media screen and (min-width: 93.75em) {
-    body {
-        background-position: left -50vw bottom 40vh, right -10vw top 50vh;
+@media screen and (min-width: 375px) {
+    dl {
+        padding: .5rem;
     }
-} */
+}
 
 
 
