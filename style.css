@@ -80,8 +80,7 @@ dl {
 }
 
 .age {
-    /* font-size: clamp(1rem, 1.219vw, 1.3rem); */
-    font-size: 1.3rem;
+    font-size: clamp(16px, 1.2vw, 25px);
 }
 
 .age, .location, .description {
@@ -91,7 +90,7 @@ dl {
 .attribution { 
     flex-grow: 0;
     flex-shrink: 0;
-    font-size: 11px; 
+    font-size: clamp(11px, .75vw, 18px); 
     font-weight: 700;
     padding-top: 2rem;
     text-align: center; 
@@ -109,14 +108,14 @@ dl {
 }
 
 .description {
-    font-size: .8rem;
+    font-size: clamp(12px, .8vw, 21px);
     font-weight: 400;
     letter-spacing: .1rem;
     padding: .5rem;
 }
 
 .location {
-    font-size: 1rem;
+    font-size: clamp(14px, 1vw, 23px);
     font-weight: 400;
     display: block;
     padding: .5rem;
@@ -124,7 +123,7 @@ dl {
 
 .name, .stats {
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: clamp(16px, 1.2vw, 25px);
 }
 
 .profile {
@@ -178,7 +177,3 @@ dl {
         padding: .5rem;
     }
 }
-
-
-
-
